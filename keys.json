@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "supplymanagement",
+  "private_key_id": "98b831133273fa3a617c3a39dac88462bb4ecab7",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDgKidaA8sASiUO\nF7GjKKk4fMyUoFR8p00pw/C+WXMxF8HcPGRQttA77slzwo4Far1Va2kSuM+sOEay\nVAPK8+rEiFKJmP1X4PdKpqm7ixgGr/P79tJfP/HFZ/6a+ptwO90PamSQdJe9k1nx\nz8QkP8EZxz9dW2PGIHGnoA7YifE2N+CSzetr873zAHZYtIKTfHXEBmj0oYPYjKzV\nAolXJMTwyUjrn7+oZD0w9JGUEcMuAu1q5cUySugDvZDVq1ZolGb+Z5JYAeUrOEBZ\nVIOxhq9Btmtq7np6F0IWeVlR83YxIUCTF7JuzqxHc1UFWtq093v+HdRKToscjug8\nQLoWlKmhAgMBAAECggEAEGR0wTvixfAmGow4BMbt7QAPU9UPqJfxaBr4iWrwJghn\nOExAR7i+rItPNwRkr1e5Zbw3kFNseFsbLGJBbr98jQetBXvnFtyQKOjcI6dNx/to\n+6V2h9mcvANZVor5//CYv05X8UpdaFMUsj6vyLjSzahI5XJP7wajWQ821rXrqjuz\nwwFCWE0Exyhi4wbqURtoDup8xf4VizagvY9OmHAX9y6yfafPCoFf/q7FLLtQPv4u\nfIMYVWCGpX1B6wzm5aKOFq8KeWhB6G3vnOO2PqOx3sijetfa8zSqIeajG77PUbi/\nlK7DQgtSSz0iMQN9+ZCCFsY/ALW+pQUcQo92BycegwKBgQD5tF8Wv9541bNTFbqJ\n6vjX7tT2BJZq45cQf4gKdNzvp124q3aGh+F/R6B9C4AXMybI9L3Wfqe6ql3V1cPp\nxxszJYaC46BPN8w5Q8VJx9iCepfk6WjYyWwiyaoR4y65uvciCqWvdXrwO/8Pc7wC\n/3l+r0YVJiLHBszANUCrLOWjvwKBgQDl0PGu5z/dnChN8j9eOqaK022PORJcOCzf\ncSwtpozu1P1UI0zJyiPmenlz746nqdty+VELfq6iQD8ZBgDM1Rp0tYl5n45pjTDJ\nQ3sHCo/HvbeoRC5+Pqu+xbsdGyzy6xcdCn81b7ie7esnkUNydFMWbOzbseYyxvR8\nmo1k9hGKnwKBgEg0rzZ93xAkA4noA5v0FWcjifNmGjTogPtlVWpopqaqSACpnEmE\nq2FJzg+6rpyGzxVXKDoJP+lLcHzwJonIaIYeuMnKlsWxhd2dSkRuhJ4eYyPvlsDx\nZdKdbA9mGVHdza7LU2PsXdNwFe5a8igPxgsrFeHxuCbDQZvnCj81aWYzAoGAU+kz\npZIH7qmKydMOsiAmGQBTu3yyKHvWXota/xwVz0pzaNouumsVKp1DZUJtyugpGVTQ\n86qApvtgTomzlxakP0LdfEv22rFTw9jgvdRsZRjvSwACHdRSLyjRRjJa+iM+YDsp\n8V/mgBkMyHiwsMSqZcDFxv2wuI+OS0S/JcL26q8CgYAnNezO5St9CIbxkd5mwjXd\nl2b1Ve4Hi/G370g8aUQScFIlKbxF6tkIkXto/iUcm8vc3Tj2bFT7Kt9mhrOBLtZP\nQ5s4G3JfF9cueZz+Rme0lNBQptqde7GwDxRMj3LIfiMp6iF0hI8cHu965qmjfOEF\n5Wd5tQAnRCZ/Q0a7BStVWg==\n-----END PRIVATE KEY-----\n",
+  "client_email": "supplymanagement@supplymanagement.iam.gserviceaccount.com",
+  "client_id": "115242857848483459720",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/supplymanagement%40supplymanagement.iam.gserviceaccount.com"
+}
