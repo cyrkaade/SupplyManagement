@@ -18,49 +18,31 @@ virtualenv envname
 envname\Scripts\activate
 --> Установите требования :
 
-# Для управления Web scraping and autoupdating of data from sheet.
+# Для управления supplymanagement:
 
-You need to download the zip file and unpack for using this.
-You need VSCode, pgAdmin and Docker (if you want) for running this application. Also, please, install the python and pip if you didn't.
-
-cd Folder (supplymanagement and valute_website, for each of these folders)
---> Create a virtual environment :
-
-# Let's install virtualenv first in folders (supplymanagement and valute_website, for each of these folders)
-pip install virtualenv
-
-# Then we create our virtual environment
-virtualenv envname
---> Activate the virtual environment :
-
-envname\scripts\activate
---> Install the requirements :
-
-# For supplymanagement:
-
-Then, please, install all the libraries from the code (pip install "module"):
+Затем, пожалуйста, установите все библиотеки из кода (pip install "модуль"):
 gspread
 psycopg2
 datetime
 bs4
-urllib.request
+urllib.
 time
 notifiers
 docker
 
-In the code, I commented some things that you should do (For example, in file TOKEN, you need to insert your own bot). Please, follow them before run the program.
+В коде я прокомментировал некоторые вещи, которые вы должны сделать (например, в file TOKEN вам нужно вставить своего собственного бота). Пожалуйста, следуйте им, прежде чем запускать программу.
 
-Running the App
---> To run the App, we use :
-You can run app with command python read_sheet.py run or just click the run button in right top of VS Code.
-Also, you can run with docker. You need to build image with: docker build -t imagename .
-Then, for running: docker run imagename
-You can watch the changes in google sheets (link on the top of README) and in pgAdmin. 
+Запуск приложения
+--> Для запуска приложения мы используем :
+Вы можете запустить приложение с помощью команды python read_sheet.py run или просто нажмите кнопку run в правом верхнем углу VS Code.
+Кроме того, вы можете работать с docker. Вам нужно создать image с помощью: docker build -t imagename .
+Затем для запуска: docker run imagename
+Вы можете следить за изменениями в Google таблицах (ссылка вверху README) и в pgAdmin.
 
-# For valute_website
+# Для valute_website
 
-Running the App
---> To run the App, we use :
+Запуск приложения
+--> Для запуска приложения мы используем :
 
 python manage.py runserver
-⚠ Then, the development server will be started at http://127.0.0.1:8000/:
+⚠ Затем сервер разработки будет запущен по адресу http://127.0.0.1:8000/
