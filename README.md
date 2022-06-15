@@ -38,7 +38,7 @@ envname\scripts\activate
 
 # For supplymanagement:
 
-# Then, please, install all the libraries from the code (pip install "module"):
+Then, please, install all the libraries from the code (pip install "module"):
 gspread
 psycopg2
 datetime
@@ -64,30 +64,3 @@ Running the App
 
 python manage.py runserver
 ⚠ Then, the development server will be started at http://127.0.0.1:8000/:
-
-# Затем, пожалуйста, установите все библиотеки из кода (pip install "module"):
-gspread
-psycopg2
-datetime
-bs4
-urllib.
-time
-notifiers
-docker
-
-В коде я прокомментировал некоторые вещи, которые вы должны сделать (например, в file TOKEN вам нужно вставить своего собственного бота). Пожалуйста, следуйте им, прежде чем запускать программу.
-
-Запуск приложения
---> Для запуска приложения мы используем :
-Вы можете запустить приложение с помощью команды python read_sheet.py run или просто нажмите кнопку run в правом верхнем углу VS Code.
-Кроме того, вы можете работать с docker. Вам нужно создать образ с помощью: docker build -t imagename .
-Затем для запуска: docker run imagename
-Вы можете следить за изменениями в Google таблицах (ссылка вверху README) и в pgAdmin. 
-
-# Для valute_website
-
-Запуск приложения
---> Для запуска приложения мы используем :
-
-python manage.py runserver
-⚠ Затем сервер разработки будет запущен по адресу http://127.0.0.1:8000/
