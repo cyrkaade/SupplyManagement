@@ -1,48 +1,48 @@
 Google Sheets: https://docs.google.com/spreadsheets/d/1V4Dw4olHogEPwhoD4bMy52kn0GUYQdf2Fgj7HzUNmO0/edit#gid=0
 
-Web scraping and autoupdating of data from sheet.
+Web Scraping и Автообновление данных.
 
-You need to download the zip file and unpack for using this.
-You need VSCode, pgAdmin and Docker (if you want) for running this application. Also, please, install the python and pip if you didn't.
+Для использования этого вам необходимо загрузить zip-файл и распаковать его.
+Для запуска этого приложения вам нужны VSCode, pgAdmin и Docker (если хотите). Кроме того, пожалуйста, установите python и pip, если вы этого не сделали.
 
-cd Folder (supplymanagement and valute_website, for each of these folders)
---> Create a virtual environment :
+папка cd (supplymanagement и valute_website для каждой из этих папок)
+--> Создать виртуальную среду :
 
-# Let's install virtualenv first in folders (supplymanagement and valute_website, for each of these folders)
+# Давайте сначала установим virtualenv в папки (supplymanagement и valute_website для каждой из этих папок)
 pip install virtualenv
 
-# Then we create our virtual environment
+# Затем мы создаем нашу виртуальную среду
 virtualenv envname
---> Activate the virtual environment :
+--> Активировать виртуальную среду :
 
-envname\scripts\activate
---> Install the requirements :
+envname\Scripts\activate
+--> Установите требования :
 
-# For supplymanagement:
+# Для управления поставками:
 
-# Then, please, install all the libraries from the code (pip install "module"):
+# Затем, пожалуйста, установите все библиотеки из кода (pip install "module"):
 gspread
 psycopg2
 datetime
 bs4
-urllib.request
+urllib.
 time
 notifiers
 docker
 
-In the code, I commented some things that you should do (For example, in file TOKEN, you need to insert your own bot). Please, follow them before run the program.
+В коде я прокомментировал некоторые вещи, которые вы должны сделать (например, в file TOKEN вам нужно вставить своего собственного бота). Пожалуйста, следуйте им, прежде чем запускать программу.
 
-Running the App
---> To run the App, we use :
-You can run app with command python read_sheet.py run or just click the run button in right top of VS Code.
-Also, you can run with docker. You need to build image with: docker build -t imagename .
-Then, for running: docker run imagename
-You can watch the changes in google sheets (link on the top of README) and in pgAdmin. 
+Запуск приложения
+--> Для запуска приложения мы используем :
+Вы можете запустить приложение с помощью команды python read_sheet.py run или просто нажмите кнопку run в правом верхнем углу VS Code.
+Кроме того, вы можете работать с docker. Вам нужно создать образ с помощью: docker build -t imagename .
+Затем для запуска: docker run imagename
+Вы можете следить за изменениями в Google таблицах (ссылка вверху README) и в pgAdmin. 
 
-# For valute_website
+# Для valute_website
 
-Running the App
---> To run the App, we use :
+Запуск приложения
+--> Для запуска приложения мы используем :
 
 python manage.py runserver
-⚠ Then, the development server will be started at http://127.0.0.1:8000/
+⚠ Затем сервер разработки будет запущен по адресу http://127.0.0.1:8000/
